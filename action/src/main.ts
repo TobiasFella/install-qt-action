@@ -164,7 +164,7 @@ class Inputs {
         }
       } else if (this.host === "windows") {
         if (compareVersions(this.version, ">=", "5.15.0")) {
-          this.arch = "win64_msvc2019_64";
+          this.arch = "win64_msvc2022_64";
         } else if (compareVersions(this.version, "<", "5.6.0")) {
           this.arch = "win64_msvc2013_64";
         } else if (compareVersions(this.version, "<", "5.9.0")) {
